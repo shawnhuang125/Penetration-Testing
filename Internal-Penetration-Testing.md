@@ -1,10 +1,13 @@
-# Windows Server Penetration Testing
-## 介紹
-> Windows Server是公司內部會用來建立內網與管理內網的一台伺服器。
+# 內網滲透測試Internal Penetration Testing
+## 內網滲透測試介紹
+> Windows Server是公司內部主要會用來建立內網與管理內網的一台伺服器。
+
+> 所以內網滲透測試的最主要目標就是透過模擬攻擊來取得Windows Server的最高權限。
+
+> 可以透過很多種手法都可以來模擬攻擊Windows Server內網環境。確保公司的內網的安全品質。
 
 > 網路安全工程師可以管理整個公司不同部門的帳號與存取權限,並隨時監控內網的異常帳號活動。
-## 目標
-> 取得Windows Server的最高權限。
+
 ## 實際操作
 ### Step 1 
 - 安裝一台kali_linux虛擬機
