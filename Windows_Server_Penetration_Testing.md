@@ -12,6 +12,7 @@ sudo namp -sv [目標IP]
 ```
 - ![image](https://github.com/user-attachments/assets/536dd87b-a074-41a7-84e4-64d7ce28b246)
 - **2-2使用nmap掃描1-1000的所有開放的port**
+> Nmap是一個掃瞄系統正在運行的網路服務的工具,通常在kali linux都已安裝Nmap,只需輸入指令就可開啟。
 ```
 sudo namp -p 1-65535 [目標IP]
 ```
@@ -28,6 +29,7 @@ sudo -sT [目標IP]
 - ![image](https://github.com/user-attachments/assets/a8e59599-7b01-4327-8c30-b7397787172d)
 
 ### Step 3
+- **3-1開啟漏洞掃描工具Metasploit Framework**
 > Metasploit Framework是一個漏洞利用框架,通過已被發現的漏洞與已經存在的攻擊模塊去進行自動化攻擊。
 
 > 意思是說可以不用自己去漏洞分析目標系統漏洞,就自動化去攻擊目標系統。
@@ -35,7 +37,6 @@ sudo -sT [目標IP]
 > 但是如果是攻擊正版授權系統而且已經修復大多數被發現的漏洞,就需要去學習逆向工程或學習漏洞分析。
 
 > 滲透測試專家與安全研究人員就是在學習與研究這些發現漏洞的技術。
-- **3-1開啟漏洞掃描工具Metasploit Framework**
 ```
 sudo msfconsole
 ```
