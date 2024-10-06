@@ -15,13 +15,13 @@
 - 安裝一台Windows_10虛擬機並加入Windows Server的網域下
 ### Step 2
 - 進入kali linux的終端機,使用nmap掃描Windows Server的運行服務
-- **2-1確認Windows Server還活著**
+- **2-1使用nmap掃描,確認Windows Server的狀態**
+- > Nmap是一個掃瞄系統正在運行的網路服務的工具,通常在kali linux都已安裝Nmap,只需輸入指令就可開啟。
 ```
 sudo namp -sv [目標IP]
 ```
 - ![image](https://github.com/user-attachments/assets/536dd87b-a074-41a7-84e4-64d7ce28b246)
 - **2-2使用nmap掃描1-1000的所有開放的port**
-> Nmap是一個掃瞄系統正在運行的網路服務的工具,通常在kali linux都已安裝Nmap,只需輸入指令就可開啟。
 ```
 sudo namp -p 1-65535 [目標IP]
 ```
