@@ -1,5 +1,11 @@
 # Windows Server Penetration Testing
-## Step By Step
+## 介紹
+> Windows Server是公司內部會用來建立內網與管理內網的一台伺服器。
+
+> 網路安全工程師可以管理整個公司不同部門的帳號與存取權限,並隨時監控內網的異常帳號活動。
+## 目標
+> 取得Windows Server的最高權限。
+## 實際操作
 ### Step 1 
 - 安裝一台kali_linux虛擬機
 - 安裝一台Windows_Server虛擬機,並配置AD DS
