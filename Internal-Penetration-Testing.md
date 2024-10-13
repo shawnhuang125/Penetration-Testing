@@ -53,7 +53,7 @@ sudo msfconsole
 ```
 - Metasploit Framework成功開啟畫面
 - ![image](https://github.com/user-attachments/assets/d458bf3b-5619-41b7-9a0d-47eebbd6fe4c)
-
+### Step 4
 - 
 - 利用漏洞掃描工具掃描可利用的系統漏洞
 - 利用系統漏洞進入Windows Server
